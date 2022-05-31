@@ -12,7 +12,7 @@ function sort(arr) {
     for (let j=i-1;j>-1;j--) {
       if (arr[j + 1]<arr[j]) {
         [arr[j+1],arr[j]]=[arr[j],arr[j+1]];
-        //console.log(arr)
+        console.log(arr)
         times++
       }
 
