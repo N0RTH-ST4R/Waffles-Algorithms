@@ -19,7 +19,7 @@ function sort(arr) {
     }
   }
   console.clear()
-  console.log("===================\nSORTED IN "+times+" ITERATIONS\n===================")
+  console.log("SORTED IN "+times+" ITERATIONS")
   console.log(arr.join(", "))
 }
 generate(10000,10000)
