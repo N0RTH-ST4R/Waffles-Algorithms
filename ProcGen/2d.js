@@ -126,5 +126,5 @@ genDirt()
 genWater()
 genClouds()
 logBoard()
-
+console.log("Stone: "+tiles.stone+", Gravel: "+tiles.gravel+", Dirt: "+tiles.dirt+", Clouds: "+tiles.cloud+", Water: "+tiles.water)
 console.log("Stone: "+stats.stone+", Gravel: "+stats.gravel+", Dirt: "+stats.dirt+", Clouds: "+stats.clouds+", Water: "+stats.water)
